@@ -36,7 +36,7 @@ func main() {
 		RawQuery: "hubs_post-cta=anchor&hubs_post=blog.hubspot.com%2Fwebsite%2Fwebsite-development&hubs_signup-url=blog.hubspot.com%2Fwebsite%2Fwebsite-development&hubs_signup-cta=cta_button",
 	}
 
-	anotherURL := partsOfUrl.String()
+	anotherURL := partsOfUrl.String() // ye data byte mei tha but .String() krke string mei convert kiya hai
 	fmt.Println(anotherURL)
 }
 
