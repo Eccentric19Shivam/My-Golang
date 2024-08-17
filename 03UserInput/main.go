@@ -18,5 +18,6 @@ func main() {
 	input, _ := reader.ReadString('\n') //this \n highlights the fact that it will read untill new line(\n) is seen
 	fmt.Println("Thanks for your rating!", input)
 	fmt.Printf("Type of the rating is %T", input)
+	fmt.Printf("\nNew Commit")
 
 }
